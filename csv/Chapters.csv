@@ -1,0 +1,4 @@
+Chapter,Media Link,Media Credit,Media Credit Link,Description,Zoom,Marker,Marker Color,Location,Latitude,Longitude,Overlay,Overlay Transparency,GeoJSON Overlay,GeoJSON Feature Properties
+Introduction,,,,Sample idea of interactive story map for the Leadership Team 2 project in conjunction with Shiloh Museum of Ozarks History.,11,Hidden,,,36.185234,-94.132557,,,,
+Springdale Chamber,media/chamber.jpeg,,,This is where it all began.,20,Plain,blue,Springdale Chamber of Commerce,36.185234,-94.132557,,,,
+Shiloh Museum of Ozark History,media/shiloh.jpg,,,We appreciate this museum and their partnership in this project.,20,Plain,blue,,36.18665654,-94.13197846,,,,
