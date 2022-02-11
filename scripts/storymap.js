@@ -114,7 +114,7 @@ $(window).on('load', function() {
     map.locate({setView: true, maxZoom:18, watch: true});
 
     function onLocationFound(e) {
-     var locationMarker = L.marker(e.marker(e.latlng).addTo(map))
+     var locationMarker = L.marker(e.latlng).addTo(map);
     }
 
     map.on('locationfound', onLocationFound);
