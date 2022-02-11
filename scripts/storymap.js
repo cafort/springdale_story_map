@@ -110,7 +110,14 @@ $(window).on('load', function() {
     // Load tiles
     addBaseMap();
 
-    map.locate({setView: true, maxZoom:18});
+    //geo location. requires location services in browser on mobile.
+    map.locate({setView: true, maxZoom:18, watch: true});
+
+    function onLocationFound(e) {
+      L.marker(e.marker(e.latlng).addTo(map))
+    }
+
+    map.on('locationfound', onLocationFound);
 
     // Add zoom controls if needed
     if (getSetting('_zoomControls') !== 'off') {
