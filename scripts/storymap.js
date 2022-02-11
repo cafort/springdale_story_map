@@ -110,6 +110,8 @@ $(window).on('load', function() {
     // Load tiles
     addBaseMap();
 
+    map.locate({setView: true, maxZoom:18});
+
     // Add zoom controls if needed
     if (getSetting('_zoomControls') !== 'off') {
       L.control.zoom({
